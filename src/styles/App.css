@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header li {
+  display: inline;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.project-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
